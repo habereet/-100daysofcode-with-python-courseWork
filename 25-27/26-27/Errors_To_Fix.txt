@@ -1,0 +1,5 @@
+* No value entered in roll entry
+  * Results in Value Error
+
+* Not really an error but if user enters zero as number of rolls.....
+  * Game ends in a tie
