@@ -30,12 +30,14 @@ def get_player_roll():
     choice = 0
     print("")
     while not isinstance(choice, int) or choice not in range(1, 16):
-        print(f"Choose your roll:")
-        for roll in sorted(roll_dict.keys()):
-            print(f" {roll:2d}: {roll_dict[roll]}")
-        choice = int(input(f"Enter a number between 1 and 15: "))
-        #if choice == 0:
-        #    print(f'')
+        try:
+            print(f"Choose your roll:")
+            for roll in sorted(roll_dict.keys()):
+                print(f" {roll:2d}: {roll_dict[roll]}")
+            choice = int(input(f"Enter a number between 1 and 15: "))
+        except Exception as e:
+            print(f'You need to enter a value between 1 and 15')
+            choice = 0
     return Roll(roll_dict[choice])
 
 
@@ -80,7 +82,10 @@ def choose_game_size():
         except ValueError:
             pass
         else:
-            break
+            if choice == 0:
+                print(f"That's not a valid length. Your match length must be at least 1 game long.")
+            else:
+                break
     return choice
 
 
