@@ -1,1 +1,4 @@
-vim.exe.stackdump
+venv
+.ipynb_checkpoints
+__pycache__
+vim*
