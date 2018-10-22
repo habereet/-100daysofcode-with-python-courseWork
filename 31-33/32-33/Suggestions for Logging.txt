@@ -1,0 +1,17 @@
+Entering Main
+Return from find max word
+Leaving main
+
+Entering find max word
+
+Read dictionary - Start
+Read dictionary - End
+
+Word Value - Start
+Word Value - End
+
+Calculate_max_word start
+Calculate_max_word end
+
+get_data_file start
+get_data_file end
