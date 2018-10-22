@@ -1,0 +1,14 @@
+[2018-10-21 01:35:35.156862] NOTICE: Startup: Logging initiated, level: 9, mode: file mode: movie-app.log
+[2018-10-21 01:35:40.820759] TRACE: API: Starting search for 'Star Wars'
+[2018-10-21 01:35:40.955712] TRACE: API: Request finished, status code 200
+[2018-10-21 01:35:40.956697] TRACE: API: Finished search for Star Wars, 8 results in 135 ms
+[2018-10-21 01:35:40.956697] TRACE: App: Search successful: keyword: Star Wars, 8 results
+[2018-10-21 01:35:52.002540] NOTICE: Startup: Logging initiated, level: 9, mode: file mode: movie-app.log
+[2018-10-21 01:35:55.160709] TRACE: API: Starting search for 'Test'
+[2018-10-21 01:35:55.275819] TRACE: API: Request finished, status code 200
+[2018-10-21 01:35:55.276824] TRACE: API: Finished search for Test, 8 results in 116 ms
+[2018-10-21 01:35:55.276824] TRACE: App: Search successful: keyword: Test, 8 results
+[2018-10-21 01:36:07.974138] NOTICE: Startup: Logging initiated, level: 9, mode: file mode: movie-app.log
+[2018-10-21 01:36:09.852339] TRACE: API: Starting search with no keyword
+[2018-10-21 01:36:09.852339] WARNING: API: No keyword supplied
+[2018-10-21 01:36:09.852339] WARNING: App: You must specify a search term.
